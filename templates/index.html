@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>IPL Data Visualisations</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/album.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+         
+        <a href="#" class="navbar-brand">IPL MATCH ANALYSIS</a>
+      </div>
+    </div>
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Data Visualisations</h1>
+        <p class="lead text-muted">Here are some interesting insights visualised as graphs from a big dataset of IPL matches</p>
+        <p>
+          <!--<a href="#" class="btn btn-primary">Main call to action</a>
+          <a href="#" class="btn btn-secondary">Secondary action</a>-->
+        </p>
+      </div>
+    </section>
+
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Top Run Scorer</h5>
+                        <p class="card-text">The bar graph representing the highest run scoring batsman in the IPL season. This could be considered as the most important characteristic of a good batsman</p>
+                    </div>
+                    <a href="/batsman-analysis-1" class="btn btn-dark" role="button">Visualise</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Most Boundaries</h5>
+                            <p class="card-text">This visualisation represents the batsmen with highest number of fours. This could be directly related to the run rates and could help in determining the batsman who must be bating at the critical situations for the bating team.</p>
+                        </div>
+                        <a href="/batsman-analysis-4s" class="btn btn-dark" role="button">Visualise</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Most Boundaries</h5>
+                                <p class="card-text">This visualisation represents the batsmen with highest number of Sixes. A very important characteristic of a good batsman.</p>
+                            </div>
+                            <a href="/batsman-analysis-6s" class="btn btn-dark" role="button">Visualise</a>
+                        </div>
+                    </div>
+        </div>
+        <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Dot Balls</h5>
+                            <p class="card-text">Here is the bar graph representing the Batsmen with most number of dot balls. This is a vague yet negative characteristic of a batsman</p>
+                        </div>
+                        <a href="/batsman-analysis-0s" class="btn btn-dark" role="button">Visualise</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Percentage Dot Balls</h5>
+                                <p class="card-text">This is an interesting insight representing the percentage of dot balls by a particular batsman. This could represent be helpful in finding out that who might not be a very good batsman in case the critical situations of a match when high run rates are required.</p>
+                            </div>
+                            <a href="/batsman-analysis-dotperct" class="btn btn-dark" role="button">Visualise</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Bowlers</h5>
+                                    <p class="card-text">This bar graph ranks the bowlers based on the number of number of balls thrown in the whole IPL season.</p>
+                                </div>
+                                <a href="/bowler-analysis" class="btn btn-dark" role="button">Visualise</a>
+                            </div>
+                        </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Dot Balls Delivered</h5>
+                        <p class="card-text">This graph is the representation of the bowlers who gave the most dot balls. This gives us a vague idea that who might be a good bowler when the bowling team intend to urgently stop giving runs to the batting team.</p>
+                    </div>
+                    <a href="/bowler-analysis-mostdots" class="btn btn-dark" role="button">Visualise</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Extras Given</h5>
+                            <p class="card-text">This representation tells about the bowlers who gave most extra runs to the batting team. this could be considered as a negative insight for a particular bowler.</p>
+                        </div>
+                        <a href="/bowler-analysis-mostextras" class="btn btn-dark" role="button">Visualise</a>
+                    </div>
+                </div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="pull-right">
+          <a href="#">Back to top</a>
+        </p></div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="static/js/vendor/holder.min.js"></script>
+    <script>
+      $(function () {
+        Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+      });
+    </script>
+    <script src="static/js/bootstrap.min.js"></script>
+  </body>
+</html>
